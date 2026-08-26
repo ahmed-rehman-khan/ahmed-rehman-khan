@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="328" viewBox="0 0 900 328" role="img" aria-label="By the numbers. 297 CONTRIBUTIONS · 1Y. 12 PUBLIC REPOS. 8 LANGUAGES SHIPPED. 5 LIVE DEPLOYMENTS. 521KB CODE SHIPPED. 13 of 13 months with activity. BUSIEST SINGLE DAY: 55 ON MAY 22, 2026. BUSIEST WEEK: 58 CONTRIBUTIONS. AVERAGE PER ACTIVE DAY: 5.6 CONTRIBUTIONS. Code composition by real byte count: HTML 34.5 percent, Python 20.6 percent, JavaScript 13.6 percent, TypeScript 11.5 percent, Java 7.8 percent, CSS 6.9 percent, Dart 3.0 percent, C 2.1 percent. HTML is mostly Flask and Jinja templates. This profile repository is excluded from the totals.">
+<defs>
+  <pattern id="dots_nb" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.1" cy="1.1" r="1" fill="#7c3aed" opacity="0.05"/></pattern>
+  <linearGradient id="card_nb" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#f7f8fc"/><stop offset="100%" stop-color="#ffffff"/></linearGradient>
+  <linearGradient id="chip_nb" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eef0f7"/><stop offset="100%" stop-color="#e4e8f2"/></linearGradient>
+  <linearGradient id="sweep_nb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/><stop offset="50%" stop-color="#7c3aed" stop-opacity=".85"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow_nb" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#4f46e5" stop-opacity=".30"/><stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip_nb"><rect width="900" height="328" rx="14"/></clipPath>
+  <clipPath id="bar_nb"><rect x="16" y="226" width="868" height="28" rx="7"/></clipPath>
+</defs>
+<style>
+  .sans{font-family:'Segoe UI',Inter,system-ui,-apple-system,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,'DejaVu Sans Mono',monospace}
+  .drift{animation:drift 26s linear infinite}
+  @keyframes drift{to{transform:translate(22px,22px)}}
+  .puls{animation:puls 3.4s ease-in-out infinite}
+  @keyframes puls{0%,100%{opacity:.45}50%{opacity:1}}
+  .halo{animation:halo 2.6s ease-out infinite}
+  @keyframes halo{0%{opacity:.55;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+  .march{stroke-dasharray:3 6;animation:march 1.5s linear infinite}
+  @keyframes march{to{stroke-dashoffset:-9}}
+  .flow{stroke-dasharray:5 9;animation:flow 1.9s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-14}}
+  .tile{opacity:0;animation:tile 5.2s ease-in-out infinite}
+  @keyframes tile{0%{opacity:0}5%{opacity:1}14%{opacity:1}20%{opacity:0}100%{opacity:0}}
+  .seg{opacity:0;animation:seg 5.6s ease-in-out infinite}
+  @keyframes seg{0%{opacity:0}4%{opacity:1}12%{opacity:1}18%{opacity:0}100%{opacity:0}}
+</style>
+<rect width="900" height="328" rx="14" fill="url(#card_nb)"/>
+<g clip-path="url(#clip_nb)">
+  <rect class="drift" x="-22" y="-22" width="944" height="372" fill="url(#dots_nb)"/>
+  <ellipse cx="738" cy="-30" rx="405" ry="150" fill="url(#glow_nb)"/>
+</g>
+<rect x=".75" y=".75" width="898.5" height="326.5" rx="13.25" fill="none" stroke="#d5d9e6"/>
+<rect class="puls" x="22" y="24" width="2.5" height="13" rx="1.25" fill="#4f46e5"/>
+<text class="mono" x="35" y="34" font-size="9.5" letter-spacing="1.5" fill="#3a3f52">MEASURED FROM THE GITHUB API · NOT SELF-REPORTED</text>
+<text class="mono" x="878" y="34" font-size="9.5" letter-spacing="1.2" fill="#4f46e5" text-anchor="end">LAST PUSH UNDER AN HOUR AGO</text>
+<path d="M22 47h856" stroke="#d5d9e6"/>
+<rect x="16.0" y="58" width="136.3" height="80" rx="10" fill="url(#chip_nb)" stroke="#d5d9e6"/>
+<rect class="tile" x="16.0" y="58" width="136.3" height="80" rx="10" fill="none" stroke="#4f46e5" stroke-opacity=".8" style="animation-delay:0.00s"/>
+<rect x="75.2" y="58" width="18" height="2.5" rx="1.25" fill="#b4bacd"/>
+<rect class="tile" x="75.2" y="58" width="18" height="2.5" rx="1.25" fill="#7c3aed" style="animation-delay:0.00s"/>
+<text class="sans" x="84.2" y="102" font-size="27" font-weight="700" letter-spacing="-.9" fill="#1c1e2a" text-anchor="middle">297</text>
+<text class="mono" x="84.2" y="122" font-size="8" letter-spacing="1.15" fill="#5f6478" text-anchor="middle">CONTRIBUTIONS · 1Y</text>
+<rect x="162.3" y="58" width="136.3" height="80" rx="10" fill="url(#chip_nb)" stroke="#d5d9e6"/>
+<rect class="tile" x="162.3" y="58" width="136.3" height="80" rx="10" fill="none" stroke="#4f46e5" stroke-opacity=".8" style="animation-delay:0.62s"/>
+<rect x="221.5" y="58" width="18" height="2.5" rx="1.25" fill="#b4bacd"/>
+<rect class="tile" x="221.5" y="58" width="18" height="2.5" rx="1.25" fill="#7c3aed" style="animation-delay:0.62s"/>
+<text class="sans" x="230.5" y="102" font-size="27" font-weight="700" letter-spacing="-.9" fill="#1c1e2a" text-anchor="middle">12</text>
+<text class="mono" x="230.5" y="122" font-size="8" letter-spacing="1.15" fill="#5f6478" text-anchor="middle">PUBLIC REPOS</text>
+<rect x="308.7" y="58" width="136.3" height="80" rx="10" fill="url(#chip_nb)" stroke="#d5d9e6"/>
+<rect class="tile" x="308.7" y="58" width="136.3" height="80" rx="10" fill="none" stroke="#4f46e5" stroke-opacity=".8" style="animation-delay:1.24s"/>
+<rect x="367.8" y="58" width="18" height="2.5" rx="1.25" fill="#b4bacd"/>
+<rect class="tile" x="367.8" y="58" width="18" height="2.5" rx="1.25" fill="#7c3aed" style="animation-delay:1.24s"/>
+<text class="sans" x="376.8" y="102" font-size="27" font-weight="700" letter-spacing="-.9" fill="#1c1e2a" text-anchor="middle">8</text>
+<text class="mono" x="376.8" y="122" font-size="8" letter-spacing="1.15" fill="#5f6478" text-anchor="middle">LANGUAGES SHIPPED</text>
+<rect x="455.0" y="58" width="136.3" height="80" rx="10" fill="url(#chip_nb)" stroke="#d5d9e6"/>
+<rect class="tile" x="455.0" y="58" width="136.3" height="80" rx="10" fill="none" stroke="#4f46e5" stroke-opacity=".8" style="animation-delay:1.86s"/>
+<rect x="514.2" y="58" width="18" height="2.5" rx="1.25" fill="#b4bacd"/>
+<rect class="tile" x="514.2" y="58" width="18" height="2.5" rx="1.25" fill="#7c3aed" style="animation-delay:1.86s"/>
+<text class="sans" x="523.2" y="102" font-size="27" font-weight="700" letter-spacing="-.9" fill="#1c1e2a" text-anchor="middle">5</text>
+<text class="mono" x="523.2" y="122" font-size="8" letter-spacing="1.15" fill="#5f6478" text-anchor="middle">LIVE DEPLOYMENTS</text>
+<rect x="601.3" y="58" width="136.3" height="80" rx="10" fill="url(#chip_nb)" stroke="#d5d9e6"/>
+<rect class="tile" x="601.3" y="58" width="136.3" height="80" rx="10" fill="none" stroke="#4f46e5" stroke-opacity=".8" style="animation-delay:2.48s"/>
+<rect x="660.5" y="58" width="18" height="2.5" rx="1.25" fill="#b4bacd"/>
+<rect class="tile" x="660.5" y="58" width="18" height="2.5" rx="1.25" fill="#7c3aed" style="animation-delay:2.48s"/>
+<text class="sans" x="669.5" y="102" font-size="27" font-weight="700" letter-spacing="-.9" fill="#1c1e2a" text-anchor="middle">521<tspan class="mono" font-size="11" font-weight="400" letter-spacing="0" fill="#5f6478"> KB</tspan></text>
+<text class="mono" x="669.5" y="122" font-size="8" letter-spacing="1.15" fill="#5f6478" text-anchor="middle">CODE SHIPPED</text>
+<rect x="747.7" y="58" width="136.3" height="80" rx="10" fill="url(#chip_nb)" stroke="#d5d9e6"/>
+<rect class="tile" x="747.7" y="58" width="136.3" height="80" rx="10" fill="none" stroke="#4f46e5" stroke-opacity=".8" style="animation-delay:3.10s"/>
+<rect x="806.8" y="58" width="18" height="2.5" rx="1.25" fill="#b4bacd"/>
+<rect class="tile" x="806.8" y="58" width="18" height="2.5" rx="1.25" fill="#7c3aed" style="animation-delay:3.10s"/>
+<text class="sans" x="815.8" y="102" font-size="27" font-weight="700" letter-spacing="-.9" fill="#1c1e2a" text-anchor="middle">13/13</text>
+<text class="mono" x="815.8" y="122" font-size="8" letter-spacing="1.15" fill="#5f6478" text-anchor="middle">MONTHS WITH ACTIVITY</text>
+<rect x="16.0" y="150" width="282.7" height="30" rx="8" fill="#4f46e5" fill-opacity=".07" stroke="#4f46e5" stroke-opacity=".28"/>
+<circle class="puls" cx="30.0" cy="165" r="2.6" fill="#7c3aed" style="animation-delay:0.0s"/>
+<text class="mono" x="41.0" y="169" font-size="8" letter-spacing="1.1" fill="#8489a0">BUSIEST SINGLE DAY</text>
+<text class="mono" x="285.7" y="169" font-size="9" letter-spacing=".8" fill="#4f46e5" text-anchor="end">55 ON MAY 22, 2026</text>
+<rect x="308.7" y="150" width="282.7" height="30" rx="8" fill="#4f46e5" fill-opacity=".07" stroke="#4f46e5" stroke-opacity=".28"/>
+<circle class="puls" cx="322.7" cy="165" r="2.6" fill="#7c3aed" style="animation-delay:0.8s"/>
+<text class="mono" x="333.7" y="169" font-size="8" letter-spacing="1.1" fill="#8489a0">BUSIEST WEEK</text>
+<text class="mono" x="578.3" y="169" font-size="9" letter-spacing=".8" fill="#4f46e5" text-anchor="end">58 CONTRIBUTIONS</text>
+<rect x="601.3" y="150" width="282.7" height="30" rx="8" fill="#4f46e5" fill-opacity=".07" stroke="#4f46e5" stroke-opacity=".28"/>
+<circle class="puls" cx="615.3" cy="165" r="2.6" fill="#7c3aed" style="animation-delay:1.6s"/>
+<text class="mono" x="626.3" y="169" font-size="8" letter-spacing="1.1" fill="#8489a0">AVERAGE PER ACTIVE DAY</text>
+<text class="mono" x="871.0" y="169" font-size="9" letter-spacing=".8" fill="#4f46e5" text-anchor="end">5.6 CONTRIBUTIONS</text>
+
+<text class="mono" x="16" y="212" font-size="9" letter-spacing="1.5" fill="#3a3f52">CODE COMPOSITION · REAL BYTE COUNTS ACROSS EVERY PUBLIC REPOSITORY</text>
+<text class="mono" x="884" y="212" font-size="9" letter-spacing="1.1" fill="#4f46e5" text-anchor="end">521 KB TOTAL</text>
+<g clip-path="url(#bar_nb)"><rect x="16.00" y="226" width="299.09" height="28" fill="#b4bacd"/>
+<rect class="seg" x="16.00" y="226" width="299.09" height="28" fill="#1c1e2a" fill-opacity=".14" style="animation-delay:0.00s"/>
+
+<rect x="315.09" y="226" width="178.93" height="28" fill="#4f46e5"/>
+<rect class="seg" x="315.09" y="226" width="178.93" height="28" fill="#1c1e2a" fill-opacity=".14" style="animation-delay:0.55s"/>
+<path d="M315.09 226v28" stroke="#ffffff" stroke-width="1.4"/>
+<rect x="494.01" y="226" width="118.40" height="28" fill="#7c3aed"/>
+<rect class="seg" x="494.01" y="226" width="118.40" height="28" fill="#1c1e2a" fill-opacity=".14" style="animation-delay:1.10s"/>
+<path d="M494.01 226v28" stroke="#ffffff" stroke-width="1.4"/>
+<rect x="612.41" y="226" width="99.43" height="28" fill="#4338ca"/>
+<rect class="seg" x="612.41" y="226" width="99.43" height="28" fill="#1c1e2a" fill-opacity=".14" style="animation-delay:1.65s"/>
+<path d="M612.41 226v28" stroke="#ffffff" stroke-width="1.4"/>
+<rect x="711.85" y="226" width="68.10" height="28" fill="#6d28d9"/>
+<rect class="seg" x="711.85" y="226" width="68.10" height="28" fill="#1c1e2a" fill-opacity=".14" style="animation-delay:2.20s"/>
+<path d="M711.85 226v28" stroke="#ffffff" stroke-width="1.4"/>
+<rect x="779.95" y="226" width="59.92" height="28" fill="#8489a0"/>
+<rect class="seg" x="779.95" y="226" width="59.92" height="28" fill="#1c1e2a" fill-opacity=".14" style="animation-delay:2.75s"/>
+<path d="M779.95 226v28" stroke="#ffffff" stroke-width="1.4"/>
+<rect x="839.87" y="226" width="25.90" height="28" fill="#3730a3"/>
+<rect class="seg" x="839.87" y="226" width="25.90" height="28" fill="#1c1e2a" fill-opacity=".14" style="animation-delay:3.30s"/>
+<path d="M839.87 226v28" stroke="#ffffff" stroke-width="1.4"/>
+<rect x="865.77" y="226" width="18.23" height="28" fill="#5f6478"/>
+<rect class="seg" x="865.77" y="226" width="18.23" height="28" fill="#1c1e2a" fill-opacity=".14" style="animation-delay:3.85s"/>
+<path d="M865.77 226v28" stroke="#ffffff" stroke-width="1.4"/></g>
+<rect x="16" y="226" width="868" height="28" rx="7" fill="none" stroke="#d5d9e6"/>
+<text class="mono" x="165.5" y="244" font-size="9" letter-spacing=".4" fill="#1c1e2a" font-weight="600" text-anchor="middle">34.5%</text><text class="mono" x="404.5" y="244" font-size="9" letter-spacing=".4" fill="#ffffff" font-weight="600" text-anchor="middle">20.6%</text><text class="mono" x="553.2" y="244" font-size="9" letter-spacing=".4" fill="#ffffff" font-weight="600" text-anchor="middle">13.6%</text><text class="mono" x="662.1" y="244" font-size="9" letter-spacing=".4" fill="#ffffff" font-weight="600" text-anchor="middle">11.5%</text><text class="mono" x="745.9" y="244" font-size="9" letter-spacing=".4" fill="#ffffff" font-weight="600" text-anchor="middle">7.8%</text><text class="mono" x="809.9" y="244" font-size="9" letter-spacing=".4" fill="#1c1e2a" font-weight="600" text-anchor="middle">6.9%</text>
+<rect x="16.0" y="276" width="9" height="9" rx="2.5" fill="#b4bacd"/>
+<text class="mono" x="30.0" y="284" font-size="8.2" fill="#5f6478">HTML</text>
+<text class="mono" x="30.0" y="296" font-size="8" fill="#8489a0">34.5%</text>
+<rect x="124.5" y="276" width="9" height="9" rx="2.5" fill="#4f46e5"/>
+<text class="mono" x="138.5" y="284" font-size="8.2" fill="#5f6478">Python</text>
+<text class="mono" x="138.5" y="296" font-size="8" fill="#8489a0">20.6%</text>
+<rect x="233.0" y="276" width="9" height="9" rx="2.5" fill="#7c3aed"/>
+<text class="mono" x="247.0" y="284" font-size="8.2" fill="#5f6478">JavaScript</text>
+<text class="mono" x="247.0" y="296" font-size="8" fill="#8489a0">13.6%</text>
+<rect x="341.5" y="276" width="9" height="9" rx="2.5" fill="#4338ca"/>
+<text class="mono" x="355.5" y="284" font-size="8.2" fill="#5f6478">TypeScript</text>
+<text class="mono" x="355.5" y="296" font-size="8" fill="#8489a0">11.5%</text>
+<rect x="450.0" y="276" width="9" height="9" rx="2.5" fill="#6d28d9"/>
+<text class="mono" x="464.0" y="284" font-size="8.2" fill="#5f6478">Java</text>
+<text class="mono" x="464.0" y="296" font-size="8" fill="#8489a0">7.8%</text>
+<rect x="558.5" y="276" width="9" height="9" rx="2.5" fill="#8489a0"/>
+<text class="mono" x="572.5" y="284" font-size="8.2" fill="#5f6478">CSS</text>
+<text class="mono" x="572.5" y="296" font-size="8" fill="#8489a0">6.9%</text>
+<rect x="667.0" y="276" width="9" height="9" rx="2.5" fill="#3730a3"/>
+<text class="mono" x="681.0" y="284" font-size="8.2" fill="#5f6478">Dart</text>
+<text class="mono" x="681.0" y="296" font-size="8" fill="#8489a0">3.0%</text>
+<rect x="775.5" y="276" width="9" height="9" rx="2.5" fill="#5f6478"/>
+<text class="mono" x="789.5" y="284" font-size="8.2" fill="#5f6478">C</text>
+<text class="mono" x="789.5" y="296" font-size="8" fill="#8489a0">2.1%</text>
+<path d="M16 298h868" stroke="#d5d9e6"/>
+<text class="mono" x="16" y="315" font-size="7.8" letter-spacing="1" fill="#8489a0">HTML IS LARGELY FLASK AND JINJA TEMPLATE MARKUP · THIS PROFILE REPOSITORY IS EXCLUDED FROM THE TOTALS</text>
+<text class="mono" x="884" y="315" font-size="7.8" letter-spacing="1" fill="#8489a0" text-anchor="end">SYNCED 2026-08-26 21:36 UTC</text>
+</svg>

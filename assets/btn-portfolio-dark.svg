@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="34" viewBox="0 0 138 34" role="img" aria-label="Portfolio">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a1d2e"/><stop offset="100%" stop-color="#131627"/></linearGradient>
+  <linearGradient id="s" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/><stop offset="50%" stop-color="#a78bfa" stop-opacity=".13"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+  <clipPath id="c"><rect width="127" height="34" rx="8"/></clipPath>
+</defs>
+<style>
+  .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,'DejaVu Sans Mono',monospace}
+  .sh{animation:sh 4.4s ease-in-out infinite;animation-delay:0.00s}
+  @keyframes sh{0%{transform:translateX(-127px)}55%,100%{transform:translateX(127px)}}
+  .cv{animation:cv 2.6s ease-in-out infinite;animation-delay:0.00s}
+  @keyframes cv{0%,100%{transform:translateX(0);opacity:.55}50%{transform:translateX(2.5px);opacity:1}}
+</style>
+<rect width="127" height="34" rx="8" fill="url(#g)" stroke="#6366f1" stroke-opacity=".75"/>
+<g clip-path="url(#c)"><rect class="sh" width="127" height="34" fill="url(#s)"/></g>
+<g transform="translate(15 10)" fill="none" stroke="#6366f1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="6.1"/><ellipse cx="7" cy="7" rx="2.7" ry="6.1"/><path d="M1.1 7h11.8"/></g>
+<text class="mono" x="38" y="21.5" font-size="11" fill="#e7e9f2">Portfolio</text>
+<g class="cv" fill="none" stroke="#6366f1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M106 13.5l3.4 3.5-3.4 3.5"/></g>
+</svg>

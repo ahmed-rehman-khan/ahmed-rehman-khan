@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="375" viewBox="0 0 440 375" role="img" aria-label="Edgix, an automated and pipelined AI trading bot. A sentiment engine, a network-isolated listing scanner and a feature builder publish onto an at-least-once Redpanda event bus with a schema registry. Risk guardrails, idempotent execution and outcome logging consume from it, and no service ever calls another directly. The risk service can veto any decision and the veto is not overridable at runtime. A manual, logged kill switch is the single write path a human reaches for.">
+<defs>
+  <pattern id="dots_ed" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.1" cy="1.1" r="1" fill="#7c3aed" opacity="0.05"/></pattern>
+  <linearGradient id="card_ed" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#f7f8fc"/><stop offset="100%" stop-color="#ffffff"/></linearGradient>
+  <linearGradient id="chip_ed" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eef0f7"/><stop offset="100%" stop-color="#e4e8f2"/></linearGradient>
+  <linearGradient id="sweep_ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/><stop offset="50%" stop-color="#7c3aed" stop-opacity=".85"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow_ed" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#4f46e5" stop-opacity=".30"/><stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip_ed"><rect width="440" height="375" rx="14"/></clipPath></defs>
+<style>
+  .sans{font-family:'Segoe UI',Inter,system-ui,-apple-system,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,'DejaVu Sans Mono',monospace}
+  .drift{animation:drift 26s linear infinite}
+  @keyframes drift{to{transform:translate(22px,22px)}}
+  .puls{animation:puls 3.4s ease-in-out infinite}
+  @keyframes puls{0%,100%{opacity:.45}50%{opacity:1}}
+  .halo{animation:halo 2.6s ease-out infinite}
+  @keyframes halo{0%{opacity:.55;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+  .march{stroke-dasharray:3 6;animation:march 1.5s linear infinite}
+  @keyframes march{to{stroke-dashoffset:-9}}
+  .flow{stroke-dasharray:5 9;animation:flow 1.9s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-14}}
+  .lit{opacity:0;animation:lit 3.4s ease-in-out infinite}
+  @keyframes lit{0%{opacity:0}12%{opacity:1}34%{opacity:1}46%{opacity:0}100%{opacity:0}}
+</style>
+<rect width="440" height="375" rx="14" fill="url(#card_ed)"/>
+<g clip-path="url(#clip_ed)">
+  <rect class="drift" x="-22" y="-22" width="484" height="419" fill="url(#dots_ed)"/>
+  <ellipse cx="361" cy="-30" rx="198" ry="150" fill="url(#glow_ed)"/>
+</g>
+<rect x=".75" y=".75" width="438.5" height="373.5" rx="13.25" fill="none" stroke="#d5d9e6"/>
+<text class="sans" x="18" y="30" font-size="17" font-weight="700" letter-spacing="-.2" fill="#1c1e2a">Edgix</text>
+<rect x="274" y="18" width="148" height="16" rx="5" fill="#7c3aed" fill-opacity=".14" stroke="#7c3aed" stroke-opacity=".45"/>
+<text class="mono" x="348" y="29.5" font-size="7.5" letter-spacing=".9" fill="#7c3aed" text-anchor="middle">AUTOMATED AI TRADING BOT</text>
+<text class="mono" x="18" y="47" font-size="9" fill="#4f46e5">an automated, pipelined trading bot with a human kill switch</text>
+<path d="M18 58h404" stroke="#d5d9e6"/>
+<text class="mono" x="18" y="73" font-size="8" letter-spacing="1.6" fill="#8489a0">PRODUCERS · PUBLISH ONLY</text>
+<rect x="18.0" y="78" width="130.0" height="28" rx="7" fill="url(#chip_ed)" stroke="#d5d9e6"/>
+<rect class="lit" x="18.0" y="78" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:0.00s"/>
+<text class="mono" x="83.0" y="95.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">SENTIMENT</text>
+<rect x="155.0" y="78" width="130.0" height="28" rx="7" fill="url(#chip_ed)" stroke="#d5d9e6"/>
+<rect class="lit" x="155.0" y="78" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:0.50s"/>
+<text class="mono" x="220.0" y="95.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">LISTINGS</text>
+<rect x="292.0" y="78" width="130.0" height="28" rx="7" fill="url(#chip_ed)" stroke="#d5d9e6"/>
+<rect class="lit" x="292.0" y="78" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:1.00s"/>
+<text class="mono" x="357.0" y="95.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">FEATURES</text>
+<path d="M83 106V114Q83 118 86 118H220" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M83 106V114Q83 118 86 118H220" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.00s"/>
+<path d="M220 106V114Q220 118 220 118H220" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M220 106V114Q220 118 220 118H220" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.22s"/>
+<path d="M357 106V114Q357 118 354 118H220" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M357 106V114Q357 118 354 118H220" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.44s"/>
+<path d="M220 118V118" stroke="#b4bacd"/>
+<path class="march" d="M220 118V118" stroke="#4f46e5" stroke-width="1.2"/>
+<path d="M216.8 117.5L220 122L223.2 117.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<rect x="18" y="122" width="404" height="42" rx="9" fill="url(#chip_ed)" stroke="#4f46e5" stroke-opacity=".5"/>
+<rect x="18" y="122" width="3" height="42" rx="1.5" fill="#4f46e5"/>
+<rect class="puls" x="18" y="122" width="404" height="42" rx="9" fill="none" stroke="#4f46e5" stroke-opacity=".85"/>
+<text class="mono" x="32" y="141" font-size="10" letter-spacing="1.2" font-weight="600" fill="#4f46e5">EVENT BUS · REDPANDA</text>
+<text class="mono" x="32" y="155" font-size="8.5" fill="#5f6478">at-least-once · schema registry · no direct calls</text>
+
+
+<path class="flow" d="M168 143H332" stroke="#7c3aed" stroke-width="1.3" stroke-opacity=".8"/>
+<circle cx="168" cy="143" r="2.6" fill="#7c3aed"><animateMotion dur="3.2s" repeatCount="indefinite" path="M0,0H164"/></circle>
+<circle cx="168" cy="143" r="2.6" fill="#7c3aed" opacity=".6"><animateMotion dur="3.2s" begin="1.6s" repeatCount="indefinite" path="M0,0H164"/></circle>
+<path d="M220 164V172" stroke="#b4bacd"/>
+<path class="march" d="M220 164V172" stroke="#4f46e5" stroke-width="1.2"/>
+<path d="M220 172H83V176" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M220 172H83V176" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.00s"/>
+<path d="M79.8 175.5L83 180L86.2 175.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<path d="M220 172H220V176" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M220 172H220V176" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.24s"/>
+<path d="M216.8 175.5L220 180L223.2 175.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<path d="M220 172H357V176" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M220 172H357V176" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.48s"/>
+<path d="M353.8 175.5L357 180L360.2 175.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<rect x="18.0" y="180" width="130.0" height="28" rx="7" fill="url(#chip_ed)" stroke="#d5d9e6"/>
+<rect class="lit" x="18.0" y="180" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:0.00s"/>
+<text class="mono" x="83.0" y="197.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">RISK</text>
+<rect x="155.0" y="180" width="130.0" height="28" rx="7" fill="url(#chip_ed)" stroke="#d5d9e6"/>
+<rect class="lit" x="155.0" y="180" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:0.50s"/>
+<text class="mono" x="220.0" y="197.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">EXECUTION</text>
+<rect x="292.0" y="180" width="130.0" height="28" rx="7" fill="url(#chip_ed)" stroke="#d5d9e6"/>
+<rect class="lit" x="292.0" y="180" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:1.00s"/>
+<text class="mono" x="357.0" y="197.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">OUTCOME LOG</text>
+<path d="M220 208V220" stroke="#b4bacd"/>
+<path class="march" d="M220 208V220" stroke="#4f46e5" stroke-width="1.2" stroke-opacity=".85" style="animation-delay:0s"/>
+<path d="M216.8 219.5L220 224L223.2 219.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<rect x="18" y="224" width="404" height="46" rx="9" fill="url(#chip_ed)" stroke="#7c3aed" stroke-opacity=".5"/>
+<rect x="18" y="224" width="3" height="46" rx="1.5" fill="#7c3aed"/>
+<rect class="puls" x="18" y="224" width="404" height="46" rx="9" fill="none" stroke="#7c3aed" stroke-opacity=".85"/>
+<text class="mono" x="32" y="243" font-size="10" letter-spacing="1.2" font-weight="600" fill="#7c3aed">RISK CAN VETO ANY DECISION</text>
+<text class="mono" x="32" y="257" font-size="8.5" fill="#5f6478">size is a function of which source produced the signal</text>
+<rect x="313" y="233" width="99" height="16" rx="5" fill="#7c3aed" fill-opacity=".16" stroke="#7c3aed" stroke-opacity=".5"/>
+<text class="mono" x="362.5" y="244.5" font-size="7.5" letter-spacing=".9" fill="#7c3aed" text-anchor="middle">NOT OVERRIDABLE</text>
+
+
+<path d="M220 270V282" stroke="#b4bacd"/>
+<path class="march" d="M220 270V282" stroke="#4f46e5" stroke-width="1.2" stroke-opacity=".85" style="animation-delay:0s"/>
+<path d="M216.8 281.5L220 286L223.2 281.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<rect x="18" y="286" width="404" height="51" rx="9" fill="url(#chip_ed)" stroke="#b45309" stroke-opacity=".5"/>
+<rect x="18" y="286" width="3" height="51" rx="1.5" fill="#b45309"/>
+<rect class="puls" x="18" y="286" width="404" height="51" rx="9" fill="none" stroke="#b45309" stroke-opacity=".85"/>
+<text class="mono" x="32" y="305" font-size="10" letter-spacing="1.2" font-weight="600" fill="#b45309">MANUAL KILL SWITCH</text>
+<text class="mono" x="32" y="319" font-size="8.5" fill="#5f6478">the single write path a human reaches for, every use recorded</text>
+<rect x="341" y="295" width="71" height="16" rx="5" fill="#b45309" fill-opacity=".16" stroke="#b45309" stroke-opacity=".5"/>
+<text class="mono" x="376.5" y="306.5" font-size="7.5" letter-spacing=".9" fill="#b45309" text-anchor="middle">HUMAN ONLY</text>
+
+
+<path d="M18 341h404" stroke="#d5d9e6"/>
+<text class="mono" x="18" y="357" font-size="8" letter-spacing=".7" fill="#8489a0">Python · Redpanda · PyTorch · Prometheus · Grafana</text>
+</svg>

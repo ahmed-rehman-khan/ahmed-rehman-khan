@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Ahmed Rehman. Full-stack developer, app developer and AI developer. Karachi, Pakistan. Third-year BS Computer Science at IoBM, 3.87 CGPA. I build AI systems end to end, from the database schema to the kill switch. The vertical slice he owns: surface, API, logic, model, data. Open to work.">
+<defs>
+  <pattern id="dots_h" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.1" cy="1.1" r="1" fill="#a78bfa" opacity="0.05"/></pattern>
+  <linearGradient id="card_h" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#12141f"/><stop offset="100%" stop-color="#0b0d16"/></linearGradient>
+  <linearGradient id="chip_h" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a1d2e"/><stop offset="100%" stop-color="#131627"/></linearGradient>
+  <linearGradient id="sweep_h" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/><stop offset="50%" stop-color="#a78bfa" stop-opacity=".85"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow_h" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#6366f1" stop-opacity=".30"/><stop offset="100%" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip_h"><rect width="900" height="300" rx="16"/></clipPath>
+  <linearGradient id="nm_h" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#e7e9f2"/><stop offset="62%" stop-color="#e7e9f2"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<style>
+  .sans{font-family:'Segoe UI',Inter,system-ui,-apple-system,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,'DejaVu Sans Mono',monospace}
+  .drift{animation:drift 26s linear infinite}
+  @keyframes drift{to{transform:translate(22px,22px)}}
+  .puls{animation:puls 3.4s ease-in-out infinite}
+  @keyframes puls{0%,100%{opacity:.45}50%{opacity:1}}
+  .halo{animation:halo 2.6s ease-out infinite}
+  @keyframes halo{0%{opacity:.55;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+  .march{stroke-dasharray:3 6;animation:march 1.5s linear infinite}
+  @keyframes march{to{stroke-dashoffset:-9}}
+  .flow{stroke-dasharray:5 9;animation:flow 1.9s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-14}}
+  .step{opacity:0;animation:step 6s linear infinite}
+  @keyframes step{0%{opacity:0}4%{opacity:1}16%{opacity:1}20%{opacity:0}100%{opacity:0}}
+</style>
+<rect width="900" height="300" rx="16" fill="url(#card_h)"/>
+<g clip-path="url(#clip_h)">
+  <rect class="drift" x="-22" y="-22" width="944" height="344" fill="url(#dots_h)"/>
+  <ellipse cx="738" cy="-30" rx="405" ry="150" fill="url(#glow_h)"/>
+</g>
+<rect x=".75" y=".75" width="898.5" height="298.5" rx="15.25" fill="none" stroke="#232739"/>
+
+<text class="mono" x="44" y="72" font-size="8.6" letter-spacing="1.35" fill="#8b90a8">KARACHI, PAKISTAN  ·  THIRD-YEAR BS COMPUTER SCIENCE, IOBM  ·  3.87 CGPA</text>
+<text class="sans" x="44" y="128" font-size="50" font-weight="700" letter-spacing="-1.4" fill="url(#nm_h)">AHMED REHMAN</text>
+<rect x="44" y="150" width="173" height="26" rx="7" fill="#6366f1" fill-opacity=".11" stroke="#6366f1" stroke-opacity=".55"/>
+<rect class="puls" x="44" y="150" width="173" height="26" rx="7" fill="none" stroke="#6366f1" stroke-opacity=".9" style="animation-delay:0.0s"/>
+<text class="mono" x="57" y="167" font-size="10" letter-spacing="1.3" fill="#6366f1">FULL-STACK DEVELOPER</text>
+<rect x="227" y="150" width="122" height="26" rx="7" fill="#a5b4fc" fill-opacity=".11" stroke="#a5b4fc" stroke-opacity=".55"/>
+<rect class="puls" x="227" y="150" width="122" height="26" rx="7" fill="none" stroke="#a5b4fc" stroke-opacity=".9" style="animation-delay:1.7s"/>
+<text class="mono" x="240" y="167" font-size="10" letter-spacing="1.3" fill="#a5b4fc">APP DEVELOPER</text>
+<rect x="359" y="150" width="114" height="26" rx="7" fill="#a78bfa" fill-opacity=".11" stroke="#a78bfa" stroke-opacity=".55"/>
+<rect class="puls" x="359" y="150" width="114" height="26" rx="7" fill="none" stroke="#a78bfa" stroke-opacity=".9" style="animation-delay:3.4s"/>
+<text class="mono" x="372" y="167" font-size="10" letter-spacing="1.3" fill="#a78bfa">AI DEVELOPER</text>
+<text class="sans" x="44" y="208" font-size="12.5" fill="#c3c7db">I build AI systems end to end, from the database schema to the kill switch.</text>
+
+<rect x="44" y="240" width="150" height="27" rx="13.5" fill="#6366f1" fill-opacity=".1" stroke="#6366f1" stroke-opacity=".45"/>
+<circle class="halo" cx="61" cy="253.5" r="3.4" fill="none" stroke="#6366f1" stroke-width="1.2" style="transform-origin:61px 253.5px"/>
+<circle class="puls" cx="61" cy="253.5" r="3.4" fill="#6366f1"/>
+<text class="mono" x="73" y="257" font-size="9.5" letter-spacing="1.6" fill="#6366f1">OPEN TO WORK</text>
+
+<text class="mono" x="538" y="45" font-size="8.5" letter-spacing="1.9" fill="#8b90a8">THE VERTICAL SLICE I OWN</text>
+<path d="M538 75.5V227.5" stroke="#2f3450"/>
+<path class="march" d="M538 75.5V227.5" stroke="#6366f1" stroke-width="1.3" stroke-opacity=".8"/>
+<path d="M538 75.5h18" stroke="#2f3450"/>
+<rect x="556" y="62" width="300" height="27" rx="8" fill="url(#chip_h)" stroke="#232739"/>
+<rect class="step" x="556" y="62" width="300" height="27" rx="8" fill="none" stroke="#6366f1" stroke-opacity=".95" style="animation-delay:0.00s"/>
+<rect x="557" y="68" width="2.5" height="15" rx="1.25" fill="#2f3450"/>
+<rect class="step" x="557" y="68" width="2.5" height="15" rx="1.25" fill="#a78bfa" style="animation-delay:0.00s"/>
+<text class="mono" x="571" y="79.1" font-size="9.5" letter-spacing="1.5" fill="#c3c7db">SURFACE</text>
+<text class="mono" x="843" y="78.9" font-size="8.5" fill="#8b90a8" text-anchor="end">web · mobile · desktop · extension</text>
+<path d="M538 113.5h18" stroke="#2f3450"/>
+<rect x="556" y="100" width="300" height="27" rx="8" fill="url(#chip_h)" stroke="#232739"/>
+<rect class="step" x="556" y="100" width="300" height="27" rx="8" fill="none" stroke="#6366f1" stroke-opacity=".95" style="animation-delay:1.20s"/>
+<rect x="557" y="106" width="2.5" height="15" rx="1.25" fill="#2f3450"/>
+<rect class="step" x="557" y="106" width="2.5" height="15" rx="1.25" fill="#a78bfa" style="animation-delay:1.20s"/>
+<text class="mono" x="571" y="117.1" font-size="9.5" letter-spacing="1.5" fill="#c3c7db">API</text>
+<text class="mono" x="843" y="116.9" font-size="8.5" fill="#8b90a8" text-anchor="end">contracts · auth · rate limits</text>
+<path d="M538 151.5h18" stroke="#2f3450"/>
+<rect x="556" y="138" width="300" height="27" rx="8" fill="url(#chip_h)" stroke="#232739"/>
+<rect class="step" x="556" y="138" width="300" height="27" rx="8" fill="none" stroke="#6366f1" stroke-opacity=".95" style="animation-delay:2.40s"/>
+<rect x="557" y="144" width="2.5" height="15" rx="1.25" fill="#2f3450"/>
+<rect class="step" x="557" y="144" width="2.5" height="15" rx="1.25" fill="#a78bfa" style="animation-delay:2.40s"/>
+<text class="mono" x="571" y="155.1" font-size="9.5" letter-spacing="1.5" fill="#c3c7db">LOGIC</text>
+<text class="mono" x="843" y="154.9" font-size="8.5" fill="#8b90a8" text-anchor="end">permissions · fails closed</text>
+<path d="M538 189.5h18" stroke="#2f3450"/>
+<rect x="556" y="176" width="300" height="27" rx="8" fill="url(#chip_h)" stroke="#232739"/>
+<rect class="step" x="556" y="176" width="300" height="27" rx="8" fill="none" stroke="#6366f1" stroke-opacity=".95" style="animation-delay:3.60s"/>
+<rect x="557" y="182" width="2.5" height="15" rx="1.25" fill="#2f3450"/>
+<rect class="step" x="557" y="182" width="2.5" height="15" rx="1.25" fill="#a78bfa" style="animation-delay:3.60s"/>
+<text class="mono" x="571" y="193.1" font-size="9.5" letter-spacing="1.5" fill="#c3c7db">MODEL</text>
+<text class="mono" x="843" y="192.9" font-size="8.5" fill="#8b90a8" text-anchor="end">trained · served · guarded</text>
+<path d="M538 227.5h18" stroke="#2f3450"/>
+<rect x="556" y="214" width="300" height="27" rx="8" fill="url(#chip_h)" stroke="#232739"/>
+<rect class="step" x="556" y="214" width="300" height="27" rx="8" fill="none" stroke="#6366f1" stroke-opacity=".95" style="animation-delay:4.80s"/>
+<rect x="557" y="220" width="2.5" height="15" rx="1.25" fill="#2f3450"/>
+<rect class="step" x="557" y="220" width="2.5" height="15" rx="1.25" fill="#a78bfa" style="animation-delay:4.80s"/>
+<text class="mono" x="571" y="231.1" font-size="9.5" letter-spacing="1.5" fill="#c3c7db">DATA</text>
+<text class="mono" x="843" y="230.9" font-size="8.5" fill="#8b90a8" text-anchor="end">third normal form · AES-256</text>
+<circle cx="538" cy="75.5" r="3.2" fill="#a78bfa">
+  <animateMotion dur="6s" repeatCount="indefinite" path="M0,0V152"/>
+</circle>
+<text class="mono" x="538" y="261.5" font-size="8.5" letter-spacing="1.4" fill="#8b90a8">ONE PERSON · EVERY LAYER · NO HANDOFF</text>
+</svg>

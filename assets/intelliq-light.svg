@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="375" viewBox="0 0 440 375" role="img" aria-label="IntelliQ, a personalized AI ecosystem. Six thin clients (web widget, browser extension, Android, desktop, VS Code, dashboard) funnel into a four-tier permission gate that fails closed. Behind it, a modular monolith where one repository file per module owns its SQL, and a hand-written multi-provider failover router. Storage is third-normal-form PostgreSQL with AES-256-GCM applied in the application layer above the database.">
+<defs>
+  <pattern id="dots_iq" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.1" cy="1.1" r="1" fill="#7c3aed" opacity="0.05"/></pattern>
+  <linearGradient id="card_iq" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#f7f8fc"/><stop offset="100%" stop-color="#ffffff"/></linearGradient>
+  <linearGradient id="chip_iq" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eef0f7"/><stop offset="100%" stop-color="#e4e8f2"/></linearGradient>
+  <linearGradient id="sweep_iq" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/><stop offset="50%" stop-color="#7c3aed" stop-opacity=".85"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow_iq" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#4f46e5" stop-opacity=".30"/><stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip_iq"><rect width="440" height="375" rx="14"/></clipPath></defs>
+<style>
+  .sans{font-family:'Segoe UI',Inter,system-ui,-apple-system,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,'DejaVu Sans Mono',monospace}
+  .drift{animation:drift 26s linear infinite}
+  @keyframes drift{to{transform:translate(22px,22px)}}
+  .puls{animation:puls 3.4s ease-in-out infinite}
+  @keyframes puls{0%,100%{opacity:.45}50%{opacity:1}}
+  .halo{animation:halo 2.6s ease-out infinite}
+  @keyframes halo{0%{opacity:.55;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+  .march{stroke-dasharray:3 6;animation:march 1.5s linear infinite}
+  @keyframes march{to{stroke-dashoffset:-9}}
+  .flow{stroke-dasharray:5 9;animation:flow 1.9s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-14}}
+  .lit{opacity:0;animation:lit 3.4s ease-in-out infinite}
+  @keyframes lit{0%{opacity:0}12%{opacity:1}34%{opacity:1}46%{opacity:0}100%{opacity:0}}
+</style>
+<rect width="440" height="375" rx="14" fill="url(#card_iq)"/>
+<g clip-path="url(#clip_iq)">
+  <rect class="drift" x="-22" y="-22" width="484" height="419" fill="url(#dots_iq)"/>
+  <ellipse cx="361" cy="-30" rx="198" ry="150" fill="url(#glow_iq)"/>
+</g>
+<rect x=".75" y=".75" width="438.5" height="373.5" rx="13.25" fill="none" stroke="#d5d9e6"/>
+<text class="sans" x="18" y="30" font-size="17" font-weight="700" letter-spacing="-.2" fill="#1c1e2a">IntelliQ</text>
+<rect x="269" y="18" width="153" height="16" rx="5" fill="#7c3aed" fill-opacity=".14" stroke="#7c3aed" stroke-opacity=".45"/>
+<text class="mono" x="345.5" y="29.5" font-size="7.5" letter-spacing=".9" fill="#7c3aed" text-anchor="middle">PERSONALIZED AI ECOSYSTEM</text>
+<text class="mono" x="18" y="47" font-size="9" fill="#4f46e5">a personalized AI ecosystem: one API, six client surfaces</text>
+<path d="M18 58h404" stroke="#d5d9e6"/>
+<text class="mono" x="18" y="73" font-size="8" letter-spacing="1.6" fill="#8489a0">CLIENTS · NO LOGIC, NO DB CONNECTION</text>
+<rect x="18.0" y="78" width="130.0" height="28" rx="7" fill="url(#chip_iq)" stroke="#d5d9e6"/>
+<rect class="lit" x="18.0" y="78" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:0.00s"/>
+<text class="mono" x="83.0" y="95.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">WEB WIDGET</text>
+<rect x="155.0" y="78" width="130.0" height="28" rx="7" fill="url(#chip_iq)" stroke="#d5d9e6"/>
+<rect class="lit" x="155.0" y="78" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:0.50s"/>
+<text class="mono" x="220.0" y="95.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">EXTENSION</text>
+<rect x="292.0" y="78" width="130.0" height="28" rx="7" fill="url(#chip_iq)" stroke="#d5d9e6"/>
+<rect class="lit" x="292.0" y="78" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:1.00s"/>
+<text class="mono" x="357.0" y="95.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">ANDROID</text>
+<rect x="18.0" y="113" width="130.0" height="28" rx="7" fill="url(#chip_iq)" stroke="#d5d9e6"/>
+<rect class="lit" x="18.0" y="113" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:1.50s"/>
+<text class="mono" x="83.0" y="130.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">DESKTOP</text>
+<rect x="155.0" y="113" width="130.0" height="28" rx="7" fill="url(#chip_iq)" stroke="#d5d9e6"/>
+<rect class="lit" x="155.0" y="113" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:2.00s"/>
+<text class="mono" x="220.0" y="130.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">VS CODE</text>
+<rect x="292.0" y="113" width="130.0" height="28" rx="7" fill="url(#chip_iq)" stroke="#d5d9e6"/>
+<rect class="lit" x="292.0" y="113" width="130.0" height="28" rx="7" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:2.50s"/>
+<text class="mono" x="357.0" y="130.4" font-size="9" letter-spacing=".6" fill="#3a3f52" text-anchor="middle">DASHBOARD</text>
+<path d="M83 141V151Q83 155 86 155H220" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M83 141V151Q83 155 86 155H220" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.00s"/>
+<path d="M220 141V151Q220 155 220 155H220" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M220 141V151Q220 155 220 155H220" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.22s"/>
+<path d="M357 141V151Q357 155 354 155H220" fill="none" stroke="#b4bacd"/>
+<path class="flow" d="M357 141V151Q357 155 354 155H220" fill="none" stroke="#7c3aed" stroke-width="1.1" stroke-opacity=".75" style="animation-delay:0.44s"/>
+<path d="M220 155V157" stroke="#b4bacd"/>
+<path class="march" d="M220 155V157" stroke="#4f46e5" stroke-width="1.2"/>
+<path d="M216.8 156.5L220 161L223.2 156.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<rect x="18" y="161" width="404" height="42" rx="9" fill="url(#chip_iq)" stroke="#4f46e5" stroke-opacity=".5"/>
+<rect x="18" y="161" width="3" height="42" rx="1.5" fill="#4f46e5"/>
+<rect class="puls" x="18" y="161" width="404" height="42" rx="9" fill="none" stroke="#4f46e5" stroke-opacity=".85"/>
+<text class="mono" x="32" y="180" font-size="10" letter-spacing="1.2" font-weight="600" fill="#4f46e5">PERMISSION GATE</text>
+<text class="mono" x="32" y="194" font-size="8.5" fill="#5f6478">four tiers · error inside a check counts as denial</text>
+<rect x="330" y="170" width="82" height="16" rx="5" fill="#4f46e5" fill-opacity=".16" stroke="#4f46e5" stroke-opacity=".5"/>
+<text class="mono" x="371" y="181.5" font-size="7.5" letter-spacing=".9" fill="#4f46e5" text-anchor="middle">FAILS CLOSED</text>
+<rect class="lit" x="373" y="189" width="7" height="5" rx="2.5" fill="#4f46e5" style="animation-delay:0.00s"/><rect x="373" y="189" width="7" height="5" rx="2.5" fill="#b4bacd"/>
+<rect class="lit" x="384" y="189" width="7" height="5" rx="2.5" fill="#4f46e5" style="animation-delay:0.55s"/><rect x="384" y="189" width="7" height="5" rx="2.5" fill="#b4bacd"/>
+<rect class="lit" x="395" y="189" width="7" height="5" rx="2.5" fill="#4f46e5" style="animation-delay:1.10s"/><rect x="395" y="189" width="7" height="5" rx="2.5" fill="#b4bacd"/>
+<rect class="lit" x="406" y="189" width="7" height="5" rx="2.5" fill="#4f46e5" style="animation-delay:1.65s"/><rect x="406" y="189" width="7" height="5" rx="2.5" fill="#b4bacd"/>
+
+<path d="M220 203V215" stroke="#b4bacd"/>
+<path class="march" d="M220 203V215" stroke="#4f46e5" stroke-width="1.2" stroke-opacity=".85" style="animation-delay:0s"/>
+<path d="M216.8 214.5L220 219L223.2 214.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<rect x="18.0" y="219" width="198.0" height="56" rx="8" fill="url(#chip_iq)" stroke="#d5d9e6"/>
+<rect class="lit" x="18.0" y="219" width="198.0" height="56" rx="8" fill="none" stroke="#4f46e5" stroke-opacity=".8" style="animation-delay:0.0s"/>
+<text class="mono" x="30.0" y="237" font-size="9.5" letter-spacing=".9" font-weight="600" fill="#1c1e2a">MODULAR MONOLITH</text>
+<text class="mono" x="30.0" y="251" font-size="8" fill="#5f6478">one repo file</text>
+<text class="mono" x="30.0" y="263" font-size="8" fill="#8489a0">owns each table</text>
+<rect x="224.0" y="219" width="198.0" height="56" rx="8" fill="url(#chip_iq)" stroke="#d5d9e6"/>
+<rect class="lit" x="224.0" y="219" width="198.0" height="56" rx="8" fill="none" stroke="#4f46e5" stroke-opacity=".8" style="animation-delay:1.6s"/>
+<text class="mono" x="236.0" y="237" font-size="9.5" letter-spacing=".9" font-weight="600" fill="#1c1e2a">FAILOVER ROUTER</text>
+<text class="mono" x="236.0" y="251" font-size="8" fill="#5f6478">model chain</text>
+<text class="mono" x="236.0" y="263" font-size="8" fill="#8489a0">no LangChain</text>
+<path d="M220 275V287" stroke="#b4bacd"/>
+<path class="march" d="M220 275V287" stroke="#4f46e5" stroke-width="1.2" stroke-opacity=".85" style="animation-delay:0s"/>
+<path d="M216.8 286.5L220 291L223.2 286.5Z" fill="#4f46e5" fill-opacity=".8"/>
+<rect x="18" y="291" width="404" height="46" rx="9" fill="url(#chip_iq)" stroke="#7c3aed" stroke-opacity=".5"/>
+<rect x="18" y="291" width="3" height="46" rx="1.5" fill="#7c3aed"/>
+<rect class="puls" x="18" y="291" width="404" height="46" rx="9" fill="none" stroke="#7c3aed" stroke-opacity=".85"/>
+<text class="mono" x="32" y="310" font-size="10" letter-spacing="1.2" font-weight="600" fill="#7c3aed">POSTGRESQL · THIRD NORMAL FORM</text>
+<text class="mono" x="32" y="324" font-size="8.5" fill="#5f6478">AES-256-GCM applied above the database, key never beside ciphertext</text>
+
+
+
+<path d="M18 341h404" stroke="#d5d9e6"/>
+<text class="mono" x="18" y="357" font-size="8" letter-spacing=".7" fill="#8489a0">Node.js · Express · PostgreSQL · Docker · Oracle Cloud</text>
+</svg>

@@ -1,0 +1,26 @@
+# Local render/verification scratch. Screenshots and wrapper pages used to check
+# the SVGs at true display width, none of which belong in the published repo.
+.render/
+*.tmp.json
+node_modules/
+__pycache__/
+
+# Saved copies of rendered GitHub pages. These are scratch files for eyeballing
+# the profile locally, and a page saved while logged in carries session data
+# (CSRF tokens, private settings markup) that must never be published.
+live.html
+*.local.html
+preview*.html
+
+# Secrets. Nothing here reads a .env, but an accidental one must not slip out.
+.env
+.env.*
+*.pem
+*.key
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

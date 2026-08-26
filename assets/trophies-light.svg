@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-label="Trophies, ranked against fixed thresholds rather than a curve. POLYGLOT, rank A: 8 languages shipped by byte count. VOLUME, rank A: 521 KB across every public repository. SHIPPER, rank A: 5 live deployments, not demos. PROLIFIC, rank A: 12 public repositories. BURST, rank S: 55 contributions in one day. ARCHITECT, rank S: 6 surfaces on one backend. SCHOLAR, rank A: 3.87 cgpa · merit scholarship. SIMULATED, rank B: 3 fortune 500 job simulations. Overall 2×S · 5×A · 1×B.">
+<defs>
+  <pattern id="dots_tr" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.1" cy="1.1" r="1" fill="#7c3aed" opacity="0.05"/></pattern>
+  <linearGradient id="card_tr" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#f7f8fc"/><stop offset="100%" stop-color="#ffffff"/></linearGradient>
+  <linearGradient id="chip_tr" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eef0f7"/><stop offset="100%" stop-color="#e4e8f2"/></linearGradient>
+  <linearGradient id="sweep_tr" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/><stop offset="50%" stop-color="#7c3aed" stop-opacity=".85"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow_tr" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#4f46e5" stop-opacity=".30"/><stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip_tr"><rect width="900" height="360" rx="14"/></clipPath></defs>
+<style>
+  .sans{font-family:'Segoe UI',Inter,system-ui,-apple-system,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,'DejaVu Sans Mono',monospace}
+  .drift{animation:drift 26s linear infinite}
+  @keyframes drift{to{transform:translate(22px,22px)}}
+  .puls{animation:puls 3.4s ease-in-out infinite}
+  @keyframes puls{0%,100%{opacity:.45}50%{opacity:1}}
+  .halo{animation:halo 2.6s ease-out infinite}
+  @keyframes halo{0%{opacity:.55;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+  .march{stroke-dasharray:3 6;animation:march 1.5s linear infinite}
+  @keyframes march{to{stroke-dashoffset:-9}}
+  .flow{stroke-dasharray:5 9;animation:flow 1.9s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-14}}
+  .tr{opacity:0;animation:tr 6.4s ease-in-out infinite}
+  @keyframes tr{0%{opacity:0}4%{opacity:1}15%{opacity:1}21%{opacity:0}100%{opacity:0}}
+</style>
+<rect width="900" height="360" rx="14" fill="url(#card_tr)"/>
+<g clip-path="url(#clip_tr)">
+  <rect class="drift" x="-22" y="-22" width="944" height="404" fill="url(#dots_tr)"/>
+  <ellipse cx="738" cy="-30" rx="405" ry="150" fill="url(#glow_tr)"/>
+</g>
+<rect x=".75" y=".75" width="898.5" height="358.5" rx="13.25" fill="none" stroke="#d5d9e6"/>
+<rect class="puls" x="22" y="24" width="2.5" height="13" rx="1.25" fill="#4f46e5"/>
+<text class="mono" x="35" y="34" font-size="9.5" letter-spacing="1.5" fill="#3a3f52">EARNED AGAINST FIXED THRESHOLDS · NOT A CURVE</text>
+<text class="mono" x="872" y="34" font-size="9.5" letter-spacing="1.2" fill="#4f46e5" text-anchor="end">2×S · 5×A · 1×B</text>
+<path d="M22 47h850" stroke="#d5d9e6"/>
+
+<g transform="translate(16.0 58)">
+  <rect width="209.5" height="124" rx="11" fill="url(#chip_tr)" stroke="#d5d9e6"/>
+  <rect class="tr" width="209.5" height="124" rx="11" fill="none" stroke="#4f46e5" stroke-opacity=".9" style="animation-delay:0.00s"/>
+
+  <rect x="14" y="14" width="30" height="30" rx="9" fill="#4f46e5" fill-opacity=".1" stroke="#4f46e5" stroke-opacity=".3"/>
+  <g transform="translate(29 29)" fill="none" stroke="#4f46e5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle r="8"/><path d="M-8 0h16"/><ellipse rx="3.7" ry="8"/></g>
+
+  <circle cx="183.5" cy="29" r="13" fill="#4f46e5" fill-opacity=".13" stroke="#4f46e5" stroke-opacity=".6"/>
+  <circle class="halo" cx="183.5" cy="29" r="13" fill="none" stroke="#4f46e5" stroke-width="1.1" style="transform-origin:183.5px 29px;animation-delay:0.00s"/>
+  <text class="sans" x="183.5" y="34" font-size="14" font-weight="700" fill="#4f46e5" text-anchor="middle">A</text>
+
+  <text class="sans" x="14" y="80" font-size="25" font-weight="700" letter-spacing="-.8" fill="#1c1e2a">8</text>
+  <text class="mono" x="14" y="97" font-size="9" letter-spacing="1.3" font-weight="600" fill="#4f46e5">POLYGLOT</text>
+  <text class="mono" x="14" y="109" font-size="7.4" letter-spacing=".9" fill="#8489a0">LANGUAGES SHIPPED BY BYTE COUNT</text>
+
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#b4bacd"/>
+  <rect x="14" y="116" width="121.0" height="3.5" rx="1.75" fill="#4f46e5"/>
+</g>
+<g transform="translate(235.5 58)">
+  <rect width="209.5" height="124" rx="11" fill="url(#chip_tr)" stroke="#d5d9e6"/>
+  <rect class="tr" width="209.5" height="124" rx="11" fill="none" stroke="#4f46e5" stroke-opacity=".9" style="animation-delay:0.68s"/>
+
+  <rect x="14" y="14" width="30" height="30" rx="9" fill="#4f46e5" fill-opacity=".1" stroke="#4f46e5" stroke-opacity=".3"/>
+  <g transform="translate(29 29)" fill="none" stroke="#4f46e5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0-7.5l8.2 3.5L0-.5l-8.2-3.5z"/><path d="M-8.2 0L0 3.5 8.2 0"/><path d="M-8.2 4L0 7.5 8.2 4"/></g>
+
+  <circle cx="183.5" cy="29" r="13" fill="#4f46e5" fill-opacity=".13" stroke="#4f46e5" stroke-opacity=".6"/>
+  <circle class="halo" cx="183.5" cy="29" r="13" fill="none" stroke="#4f46e5" stroke-width="1.1" style="transform-origin:183.5px 29px;animation-delay:0.68s"/>
+  <text class="sans" x="183.5" y="34" font-size="14" font-weight="700" fill="#4f46e5" text-anchor="middle">A</text>
+
+  <text class="sans" x="14" y="80" font-size="25" font-weight="700" letter-spacing="-.8" fill="#1c1e2a">521<tspan class="mono" font-size="10.5" font-weight="400" letter-spacing="0" fill="#5f6478"> KB</tspan></text>
+  <text class="mono" x="14" y="97" font-size="9" letter-spacing="1.3" font-weight="600" fill="#4f46e5">VOLUME</text>
+  <text class="mono" x="14" y="109" font-size="7.4" letter-spacing=".9" fill="#8489a0">ACROSS EVERY PUBLIC REPOSITORY</text>
+
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#b4bacd"/>
+  <rect x="14" y="116" width="126.1" height="3.5" rx="1.75" fill="#4f46e5"/>
+</g>
+<g transform="translate(455.0 58)">
+  <rect width="209.5" height="124" rx="11" fill="url(#chip_tr)" stroke="#d5d9e6"/>
+  <rect class="tr" width="209.5" height="124" rx="11" fill="none" stroke="#4f46e5" stroke-opacity=".9" style="animation-delay:1.36s"/>
+
+  <rect x="14" y="14" width="30" height="30" rx="9" fill="#4f46e5" fill-opacity=".1" stroke="#4f46e5" stroke-opacity=".3"/>
+  <g transform="translate(29 29)" fill="none" stroke="#4f46e5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0-8.5c2.9 2.8 4.4 6.2 4.4 9.5L0 5.5l-4.4-4.5C-4.4-2.3-2.9-5.7 0-8.5z"/><path d="M-4.4 2.5l-2.6 5.5 4.3-1.9M4.4 2.5l2.6 5.5-4.3-1.9"/><circle cy="-2.2" r="1.7"/></g>
+
+  <circle cx="183.5" cy="29" r="13" fill="#4f46e5" fill-opacity=".13" stroke="#4f46e5" stroke-opacity=".6"/>
+  <circle class="halo" cx="183.5" cy="29" r="13" fill="none" stroke="#4f46e5" stroke-width="1.1" style="transform-origin:183.5px 29px;animation-delay:1.36s"/>
+  <text class="sans" x="183.5" y="34" font-size="14" font-weight="700" fill="#4f46e5" text-anchor="middle">A</text>
+
+  <text class="sans" x="14" y="80" font-size="25" font-weight="700" letter-spacing="-.8" fill="#1c1e2a">5</text>
+  <text class="mono" x="14" y="97" font-size="9" letter-spacing="1.3" font-weight="600" fill="#4f46e5">SHIPPER</text>
+  <text class="mono" x="14" y="109" font-size="7.4" letter-spacing=".9" fill="#8489a0">LIVE DEPLOYMENTS, NOT DEMOS</text>
+
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#b4bacd"/>
+  <rect x="14" y="116" width="113.4" height="3.5" rx="1.75" fill="#4f46e5"/>
+</g>
+<g transform="translate(674.5 58)">
+  <rect width="209.5" height="124" rx="11" fill="url(#chip_tr)" stroke="#d5d9e6"/>
+  <rect class="tr" width="209.5" height="124" rx="11" fill="none" stroke="#4f46e5" stroke-opacity=".9" style="animation-delay:2.04s"/>
+
+  <rect x="14" y="14" width="30" height="30" rx="9" fill="#4f46e5" fill-opacity=".1" stroke="#4f46e5" stroke-opacity=".3"/>
+  <g transform="translate(29 29)" fill="none" stroke="#4f46e5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-8" width="7" height="7" rx="1.6"/><rect x="1" y="-8" width="7" height="7" rx="1.6"/><rect x="-8" y="1" width="7" height="7" rx="1.6"/><rect x="1" y="1" width="7" height="7" rx="1.6"/></g>
+
+  <circle cx="183.5" cy="29" r="13" fill="#4f46e5" fill-opacity=".13" stroke="#4f46e5" stroke-opacity=".6"/>
+  <circle class="halo" cx="183.5" cy="29" r="13" fill="none" stroke="#4f46e5" stroke-width="1.1" style="transform-origin:183.5px 29px;animation-delay:2.04s"/>
+  <text class="sans" x="183.5" y="34" font-size="14" font-weight="700" fill="#4f46e5" text-anchor="middle">A</text>
+
+  <text class="sans" x="14" y="80" font-size="25" font-weight="700" letter-spacing="-.8" fill="#1c1e2a">12</text>
+  <text class="mono" x="14" y="97" font-size="9" letter-spacing="1.3" font-weight="600" fill="#4f46e5">PROLIFIC</text>
+  <text class="mono" x="14" y="109" font-size="7.4" letter-spacing=".9" fill="#8489a0">PUBLIC REPOSITORIES</text>
+
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#b4bacd"/>
+  <rect x="14" y="116" width="108.9" height="3.5" rx="1.75" fill="#4f46e5"/>
+</g>
+<g transform="translate(16.0 192)">
+  <rect width="209.5" height="124" rx="11" fill="url(#chip_tr)" stroke="#d5d9e6"/>
+  <rect class="tr" width="209.5" height="124" rx="11" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:2.72s"/>
+
+  <rect x="14" y="14" width="30" height="30" rx="9" fill="#7c3aed" fill-opacity=".1" stroke="#7c3aed" stroke-opacity=".3"/>
+  <g transform="translate(29 29)" fill="none" stroke="#7c3aed" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2-8.5L-5.5 1.2h4.2L-2.8 8.5 5.5-1.4H1.2z"/></g>
+
+  <circle cx="183.5" cy="29" r="13" fill="#7c3aed" fill-opacity=".13" stroke="#7c3aed" stroke-opacity=".6"/>
+  <circle class="halo" cx="183.5" cy="29" r="13" fill="none" stroke="#7c3aed" stroke-width="1.1" style="transform-origin:183.5px 29px;animation-delay:2.72s"/>
+  <text class="sans" x="183.5" y="34" font-size="14" font-weight="700" fill="#7c3aed" text-anchor="middle">S</text>
+
+  <text class="sans" x="14" y="80" font-size="25" font-weight="700" letter-spacing="-.8" fill="#1c1e2a">55</text>
+  <text class="mono" x="14" y="97" font-size="9" letter-spacing="1.3" font-weight="600" fill="#7c3aed">BURST</text>
+  <text class="mono" x="14" y="109" font-size="7.4" letter-spacing=".9" fill="#8489a0">CONTRIBUTIONS IN ONE DAY</text>
+
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#b4bacd"/>
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#7c3aed"/>
+</g>
+<g transform="translate(235.5 192)">
+  <rect width="209.5" height="124" rx="11" fill="url(#chip_tr)" stroke="#d5d9e6"/>
+  <rect class="tr" width="209.5" height="124" rx="11" fill="none" stroke="#7c3aed" stroke-opacity=".9" style="animation-delay:3.40s"/>
+
+  <rect x="14" y="14" width="30" height="30" rx="9" fill="#7c3aed" fill-opacity=".1" stroke="#7c3aed" stroke-opacity=".3"/>
+  <g transform="translate(29 29)" fill="none" stroke="#7c3aed" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle r="2.7"/><circle cx="0" cy="-7.6" r="1.8"/><circle cx="6.6" cy="-3.8" r="1.8"/><circle cx="6.6" cy="3.8" r="1.8"/><circle cx="0" cy="7.6" r="1.8"/><circle cx="-6.6" cy="3.8" r="1.8"/><circle cx="-6.6" cy="-3.8" r="1.8"/><path d="M0-2.7v-3.1M2.3-1.4l2.7-1.6M2.3 1.4l2.7 1.6M0 2.7v3.1M-2.3 1.4l-2.7 1.6M-2.3-1.4l-2.7-1.6"/></g>
+
+  <circle cx="183.5" cy="29" r="13" fill="#7c3aed" fill-opacity=".13" stroke="#7c3aed" stroke-opacity=".6"/>
+  <circle class="halo" cx="183.5" cy="29" r="13" fill="none" stroke="#7c3aed" stroke-width="1.1" style="transform-origin:183.5px 29px;animation-delay:3.40s"/>
+  <text class="sans" x="183.5" y="34" font-size="14" font-weight="700" fill="#7c3aed" text-anchor="middle">S</text>
+
+  <text class="sans" x="14" y="80" font-size="25" font-weight="700" letter-spacing="-.8" fill="#1c1e2a">6</text>
+  <text class="mono" x="14" y="97" font-size="9" letter-spacing="1.3" font-weight="600" fill="#7c3aed">ARCHITECT</text>
+  <text class="mono" x="14" y="109" font-size="7.4" letter-spacing=".9" fill="#8489a0">SURFACES ON ONE BACKEND</text>
+
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#b4bacd"/>
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#7c3aed"/>
+</g>
+<g transform="translate(455.0 192)">
+  <rect width="209.5" height="124" rx="11" fill="url(#chip_tr)" stroke="#d5d9e6"/>
+  <rect class="tr" width="209.5" height="124" rx="11" fill="none" stroke="#4f46e5" stroke-opacity=".9" style="animation-delay:4.08s"/>
+
+  <rect x="14" y="14" width="30" height="30" rx="9" fill="#4f46e5" fill-opacity=".1" stroke="#4f46e5" stroke-opacity=".3"/>
+  <g transform="translate(29 29)" fill="none" stroke="#4f46e5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-9-1.8l9-4.2 9 4.2-9 4.2z"/><path d="M-5 .2v4.2c0 1.7 2.2 2.8 5 2.8s5-1.1 5-2.8V.2"/></g>
+
+  <circle cx="183.5" cy="29" r="13" fill="#4f46e5" fill-opacity=".13" stroke="#4f46e5" stroke-opacity=".6"/>
+  <circle class="halo" cx="183.5" cy="29" r="13" fill="none" stroke="#4f46e5" stroke-width="1.1" style="transform-origin:183.5px 29px;animation-delay:4.08s"/>
+  <text class="sans" x="183.5" y="34" font-size="14" font-weight="700" fill="#4f46e5" text-anchor="middle">A</text>
+
+  <text class="sans" x="14" y="80" font-size="25" font-weight="700" letter-spacing="-.8" fill="#1c1e2a">3.87</text>
+  <text class="mono" x="14" y="97" font-size="9" letter-spacing="1.3" font-weight="600" fill="#4f46e5">SCHOLAR</text>
+  <text class="mono" x="14" y="109" font-size="7.4" letter-spacing=".9" fill="#8489a0">CGPA · MERIT SCHOLARSHIP</text>
+
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#b4bacd"/>
+  <rect x="14" y="116" width="180.1" height="3.5" rx="1.75" fill="#4f46e5"/>
+</g>
+<g transform="translate(674.5 192)">
+  <rect width="209.5" height="124" rx="11" fill="url(#chip_tr)" stroke="#d5d9e6"/>
+  <rect class="tr" width="209.5" height="124" rx="11" fill="none" stroke="#3730a3" stroke-opacity=".9" style="animation-delay:4.76s"/>
+
+  <rect x="14" y="14" width="30" height="30" rx="9" fill="#3730a3" fill-opacity=".1" stroke="#3730a3" stroke-opacity=".3"/>
+  <g transform="translate(29 29)" fill="none" stroke="#3730a3" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-3.8" width="16" height="11" rx="2"/><path d="M-3-3.8v-2.6h6v2.6"/><path d="M-8 1.2h16"/></g>
+
+  <circle cx="183.5" cy="29" r="13" fill="#3730a3" fill-opacity=".13" stroke="#3730a3" stroke-opacity=".6"/>
+  <circle class="halo" cx="183.5" cy="29" r="13" fill="none" stroke="#3730a3" stroke-width="1.1" style="transform-origin:183.5px 29px;animation-delay:4.76s"/>
+  <text class="sans" x="183.5" y="34" font-size="14" font-weight="700" fill="#3730a3" text-anchor="middle">B</text>
+
+  <text class="sans" x="14" y="80" font-size="25" font-weight="700" letter-spacing="-.8" fill="#1c1e2a">3</text>
+  <text class="mono" x="14" y="97" font-size="9" letter-spacing="1.3" font-weight="600" fill="#3730a3">SIMULATED</text>
+  <text class="mono" x="14" y="109" font-size="7.4" letter-spacing=".9" fill="#8489a0">FORTUNE 500 JOB SIMULATIONS</text>
+
+  <rect x="14" y="116" width="181.5" height="3.5" rx="1.75" fill="#b4bacd"/>
+  <rect x="14" y="116" width="108.9" height="3.5" rx="1.75" fill="#3730a3"/>
+</g>
+<path d="M16 330h868" stroke="#d5d9e6"/>
+<text class="mono" x="22" y="347" font-size="7.8" letter-spacing="1" fill="#8489a0">THE BAR UNDER EACH TILE IS DISTANCE TO THE S THRESHOLD · A RANK CAN BE LOST, WHICH IS WHAT MAKES IT WORTH SHOWING</text>
+<text class="mono" x="878" y="347" font-size="7.8" letter-spacing="1" fill="#8489a0" text-anchor="end">SYNCED 2026-08-26 21:36 UTC</text>
+</svg>

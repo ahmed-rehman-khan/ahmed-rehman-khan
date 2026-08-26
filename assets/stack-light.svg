@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="415" viewBox="0 0 900 415" role="img" aria-label="Stack grouped by purpose. SYSTEMS, services, APIs, data: Node.js, Express, FastAPI, Flask, PostgreSQL, MySQL, SQL. AI, trained and served: PyTorch, scikit-learn, LangChain, OpenRouter, Gemini, LoRA fine-tuning, retrieval. SURFACES, web, mobile, desktop: Next.js, React, TypeScript, Tailwind, Flutter, Kotlin Multiplatform, Compose. INFRASTRUCTURE, run it, then watch it: Docker, Oracle Cloud, Cloudflare Tunnel, Redpanda, GitHub Actions, Prometheus, Grafana, OpenTelemetry. EMBEDDED, firmware and sensors: ESP32-S3, FreeRTOS, BLE, MQTT. LANGUAGES, beneath the frameworks: Python, JavaScript, Java, C, C++, Dart, Kotlin, x86 Assembly.">
+<defs>
+  <pattern id="dots_st" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.1" cy="1.1" r="1" fill="#7c3aed" opacity="0.05"/></pattern>
+  <linearGradient id="card_st" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#f7f8fc"/><stop offset="100%" stop-color="#ffffff"/></linearGradient>
+  <linearGradient id="chip_st" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eef0f7"/><stop offset="100%" stop-color="#e4e8f2"/></linearGradient>
+  <linearGradient id="sweep_st" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/><stop offset="50%" stop-color="#7c3aed" stop-opacity=".85"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow_st" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#4f46e5" stop-opacity=".30"/><stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip_st"><rect width="900" height="415" rx="12"/></clipPath></defs>
+<style>
+  .sans{font-family:'Segoe UI',Inter,system-ui,-apple-system,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,'DejaVu Sans Mono',monospace}
+  .drift{animation:drift 26s linear infinite}
+  @keyframes drift{to{transform:translate(22px,22px)}}
+  .puls{animation:puls 3.4s ease-in-out infinite}
+  @keyframes puls{0%,100%{opacity:.45}50%{opacity:1}}
+  .halo{animation:halo 2.6s ease-out infinite}
+  @keyframes halo{0%{opacity:.55;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+  .march{stroke-dasharray:3 6;animation:march 1.5s linear infinite}
+  @keyframes march{to{stroke-dashoffset:-9}}
+  .flow{stroke-dasharray:5 9;animation:flow 1.9s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-14}}
+  .lit7{opacity:0;animation:k7 4.34s linear infinite}
+  @keyframes k7{0%{opacity:0}1.71%{opacity:1}12.57%{opacity:1}14.29%{opacity:0}100%{opacity:0}}
+  .lit8{opacity:0;animation:k8 4.96s linear infinite}
+  @keyframes k8{0%{opacity:0}1.50%{opacity:1}11.00%{opacity:1}12.50%{opacity:0}100%{opacity:0}}
+  .lit4{opacity:0;animation:k4 2.48s linear infinite}
+  @keyframes k4{0%{opacity:0}3.00%{opacity:1}22.00%{opacity:1}25.00%{opacity:0}100%{opacity:0}}
+</style>
+<rect width="900" height="415" rx="12" fill="url(#card_st)"/>
+<g clip-path="url(#clip_st)">
+  <rect class="drift" x="-22" y="-22" width="944" height="459" fill="url(#dots_st)"/>
+  <ellipse cx="738" cy="-30" rx="405" ry="150" fill="url(#glow_st)"/>
+</g>
+<rect x=".75" y=".75" width="898.5" height="413.5" rx="11.25" fill="none" stroke="#d5d9e6"/>
+<rect class="puls" x="28" y="30" width="2.5" height="13" rx="1.25" fill="#4f46e5"/>
+<text class="mono" x="41" y="40" font-size="9.5" letter-spacing="1.5" fill="#3a3f52">GROUPED BY WHAT IT BUILDS · NOT BY WHAT IS POPULAR</text>
+<text class="mono" x="872" y="40" font-size="9.5" letter-spacing="1.2" fill="#4f46e5" text-anchor="end">41 TOOLS · 6 DOMAINS</text>
+<path d="M28 53h844" stroke="#d5d9e6"/>
+
+<rect class="puls" x="28" y="76.0" width="2.5" height="22" rx="1.25" fill="#4f46e5" style="animation-delay:0.0s"/>
+<text class="mono" x="41" y="84.0" font-size="10" letter-spacing="1.4" fill="#3a3f52">SYSTEMS</text>
+<text class="mono" x="41" y="98.0" font-size="8.5" fill="#8489a0">services, APIs, data</text>
+<g class="mono" font-size="9.5" text-anchor="middle">
+  <rect x="196" y="76" width="62" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="227.0" y="90.8" fill="#5f6478">Node.js</text>
+  <rect x="265" y="76" width="62" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="296.0" y="90.8" fill="#5f6478">Express</text>
+  <rect x="334" y="76" width="62" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="365.0" y="90.8" fill="#5f6478">FastAPI</text>
+  <rect x="403" y="76" width="51" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="428.5" y="90.8" fill="#5f6478">Flask</text>
+  <rect x="461" y="76" width="79" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="500.5" y="90.8" fill="#5f6478">PostgreSQL</text>
+  <rect x="547" y="76" width="51" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="572.5" y="90.8" fill="#5f6478">MySQL</text>
+  <rect x="605" y="76" width="39" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="624.5" y="90.8" fill="#5f6478">SQL</text>
+</g>
+<g fill="none" stroke="#4f46e5" stroke-width="1.2">
+  <rect class="lit7" x="196" y="76" width="62" height="22" rx="6" style="animation-delay:0.00s"/>
+  <rect class="lit7" x="265" y="76" width="62" height="22" rx="6" style="animation-delay:0.62s"/>
+  <rect class="lit7" x="334" y="76" width="62" height="22" rx="6" style="animation-delay:1.24s"/>
+  <rect class="lit7" x="403" y="76" width="51" height="22" rx="6" style="animation-delay:1.86s"/>
+  <rect class="lit7" x="461" y="76" width="79" height="22" rx="6" style="animation-delay:2.48s"/>
+  <rect class="lit7" x="547" y="76" width="51" height="22" rx="6" style="animation-delay:3.10s"/>
+  <rect class="lit7" x="605" y="76" width="39" height="22" rx="6" style="animation-delay:3.72s"/>
+</g>
+<g class="mono" font-size="9.5" text-anchor="middle" fill="#7c3aed">
+  <text class="lit7" x="227.0" y="90.8" style="animation-delay:0.00s">Node.js</text>
+  <text class="lit7" x="296.0" y="90.8" style="animation-delay:0.62s">Express</text>
+  <text class="lit7" x="365.0" y="90.8" style="animation-delay:1.24s">FastAPI</text>
+  <text class="lit7" x="428.5" y="90.8" style="animation-delay:1.86s">Flask</text>
+  <text class="lit7" x="500.5" y="90.8" style="animation-delay:2.48s">PostgreSQL</text>
+  <text class="lit7" x="572.5" y="90.8" style="animation-delay:3.10s">MySQL</text>
+  <text class="lit7" x="624.5" y="90.8" style="animation-delay:3.72s">SQL</text>
+</g>
+
+<rect class="puls" x="28" y="128.0" width="2.5" height="22" rx="1.25" fill="#4f46e5" style="animation-delay:0.5s"/>
+<text class="mono" x="41" y="136.0" font-size="10" letter-spacing="1.4" fill="#3a3f52">AI</text>
+<text class="mono" x="41" y="150.0" font-size="8.5" fill="#8489a0">trained and served</text>
+<g class="mono" font-size="9.5" text-anchor="middle">
+  <rect x="196" y="128" width="62" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="227.0" y="142.8" fill="#5f6478">PyTorch</text>
+  <rect x="265" y="128" width="91" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="310.5" y="142.8" fill="#5f6478">scikit-learn</text>
+  <rect x="363" y="128" width="73" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="399.5" y="142.8" fill="#5f6478">LangChain</text>
+  <rect x="443" y="128" width="79" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="482.5" y="142.8" fill="#5f6478">OpenRouter</text>
+  <rect x="529" y="128" width="56" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="557.0" y="142.8" fill="#5f6478">Gemini</text>
+  <rect x="592" y="128" width="114" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="649.0" y="142.8" fill="#5f6478">LoRA fine-tuning</text>
+  <rect x="713" y="128" width="73" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="749.5" y="142.8" fill="#5f6478">retrieval</text>
+</g>
+<g fill="none" stroke="#4f46e5" stroke-width="1.2">
+  <rect class="lit7" x="196" y="128" width="62" height="22" rx="6" style="animation-delay:0.00s"/>
+  <rect class="lit7" x="265" y="128" width="91" height="22" rx="6" style="animation-delay:0.62s"/>
+  <rect class="lit7" x="363" y="128" width="73" height="22" rx="6" style="animation-delay:1.24s"/>
+  <rect class="lit7" x="443" y="128" width="79" height="22" rx="6" style="animation-delay:1.86s"/>
+  <rect class="lit7" x="529" y="128" width="56" height="22" rx="6" style="animation-delay:2.48s"/>
+  <rect class="lit7" x="592" y="128" width="114" height="22" rx="6" style="animation-delay:3.10s"/>
+  <rect class="lit7" x="713" y="128" width="73" height="22" rx="6" style="animation-delay:3.72s"/>
+</g>
+<g class="mono" font-size="9.5" text-anchor="middle" fill="#7c3aed">
+  <text class="lit7" x="227.0" y="142.8" style="animation-delay:0.00s">PyTorch</text>
+  <text class="lit7" x="310.5" y="142.8" style="animation-delay:0.62s">scikit-learn</text>
+  <text class="lit7" x="399.5" y="142.8" style="animation-delay:1.24s">LangChain</text>
+  <text class="lit7" x="482.5" y="142.8" style="animation-delay:1.86s">OpenRouter</text>
+  <text class="lit7" x="557.0" y="142.8" style="animation-delay:2.48s">Gemini</text>
+  <text class="lit7" x="649.0" y="142.8" style="animation-delay:3.10s">LoRA fine-tuning</text>
+  <text class="lit7" x="749.5" y="142.8" style="animation-delay:3.72s">retrieval</text>
+</g>
+
+<rect class="puls" x="28" y="180.0" width="2.5" height="22" rx="1.25" fill="#4f46e5" style="animation-delay:1.0s"/>
+<text class="mono" x="41" y="188.0" font-size="10" letter-spacing="1.4" fill="#3a3f52">SURFACES</text>
+<text class="mono" x="41" y="202.0" font-size="8.5" fill="#8489a0">web, mobile, desktop</text>
+<g class="mono" font-size="9.5" text-anchor="middle">
+  <rect x="196" y="180" width="62" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="227.0" y="194.8" fill="#5f6478">Next.js</text>
+  <rect x="265" y="180" width="51" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="290.5" y="194.8" fill="#5f6478">React</text>
+  <rect x="323" y="180" width="79" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="362.5" y="194.8" fill="#5f6478">TypeScript</text>
+  <rect x="409" y="180" width="68" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="443.0" y="194.8" fill="#5f6478">Tailwind</text>
+  <rect x="484" y="180" width="62" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="515.0" y="194.8" fill="#5f6478">Flutter</text>
+  <rect x="553" y="180" width="136" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="621.0" y="194.8" fill="#5f6478">Kotlin Multiplatform</text>
+  <rect x="696" y="180" width="62" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="727.0" y="194.8" fill="#5f6478">Compose</text>
+</g>
+<g fill="none" stroke="#4f46e5" stroke-width="1.2">
+  <rect class="lit7" x="196" y="180" width="62" height="22" rx="6" style="animation-delay:0.00s"/>
+  <rect class="lit7" x="265" y="180" width="51" height="22" rx="6" style="animation-delay:0.62s"/>
+  <rect class="lit7" x="323" y="180" width="79" height="22" rx="6" style="animation-delay:1.24s"/>
+  <rect class="lit7" x="409" y="180" width="68" height="22" rx="6" style="animation-delay:1.86s"/>
+  <rect class="lit7" x="484" y="180" width="62" height="22" rx="6" style="animation-delay:2.48s"/>
+  <rect class="lit7" x="553" y="180" width="136" height="22" rx="6" style="animation-delay:3.10s"/>
+  <rect class="lit7" x="696" y="180" width="62" height="22" rx="6" style="animation-delay:3.72s"/>
+</g>
+<g class="mono" font-size="9.5" text-anchor="middle" fill="#7c3aed">
+  <text class="lit7" x="227.0" y="194.8" style="animation-delay:0.00s">Next.js</text>
+  <text class="lit7" x="290.5" y="194.8" style="animation-delay:0.62s">React</text>
+  <text class="lit7" x="362.5" y="194.8" style="animation-delay:1.24s">TypeScript</text>
+  <text class="lit7" x="443.0" y="194.8" style="animation-delay:1.86s">Tailwind</text>
+  <text class="lit7" x="515.0" y="194.8" style="animation-delay:2.48s">Flutter</text>
+  <text class="lit7" x="621.0" y="194.8" style="animation-delay:3.10s">Kotlin Multiplatform</text>
+  <text class="lit7" x="727.0" y="194.8" style="animation-delay:3.72s">Compose</text>
+</g>
+
+<rect class="puls" x="28" y="246.5" width="2.5" height="22" rx="1.25" fill="#4f46e5" style="animation-delay:1.5s"/>
+<text class="mono" x="41" y="254.5" font-size="10" letter-spacing="1.4" fill="#3a3f52">INFRASTRUCTURE</text>
+<text class="mono" x="41" y="268.5" font-size="8.5" fill="#8489a0">run it, then watch it</text>
+<g class="mono" font-size="9.5" text-anchor="middle">
+  <rect x="196" y="232" width="56" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="224.0" y="246.8" fill="#5f6478">Docker</text>
+  <rect x="259" y="232" width="91" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="304.5" y="246.8" fill="#5f6478">Oracle Cloud</text>
+  <rect x="357" y="232" width="119" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="416.5" y="246.8" fill="#5f6478">Cloudflare Tunnel</text>
+  <rect x="483" y="232" width="68" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="517.0" y="246.8" fill="#5f6478">Redpanda</text>
+  <rect x="558" y="232" width="102" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="609.0" y="246.8" fill="#5f6478">GitHub Actions</text>
+  <rect x="667" y="232" width="79" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="706.5" y="246.8" fill="#5f6478">Prometheus</text>
+  <rect x="753" y="232" width="62" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="784.0" y="246.8" fill="#5f6478">Grafana</text>
+  <rect x="196" y="261" width="96" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="244.0" y="275.8" fill="#5f6478">OpenTelemetry</text>
+</g>
+<g fill="none" stroke="#4f46e5" stroke-width="1.2">
+  <rect class="lit8" x="196" y="232" width="56" height="22" rx="6" style="animation-delay:0.00s"/>
+  <rect class="lit8" x="259" y="232" width="91" height="22" rx="6" style="animation-delay:0.62s"/>
+  <rect class="lit8" x="357" y="232" width="119" height="22" rx="6" style="animation-delay:1.24s"/>
+  <rect class="lit8" x="483" y="232" width="68" height="22" rx="6" style="animation-delay:1.86s"/>
+  <rect class="lit8" x="558" y="232" width="102" height="22" rx="6" style="animation-delay:2.48s"/>
+  <rect class="lit8" x="667" y="232" width="79" height="22" rx="6" style="animation-delay:3.10s"/>
+  <rect class="lit8" x="753" y="232" width="62" height="22" rx="6" style="animation-delay:3.72s"/>
+  <rect class="lit8" x="196" y="261" width="96" height="22" rx="6" style="animation-delay:4.34s"/>
+</g>
+<g class="mono" font-size="9.5" text-anchor="middle" fill="#7c3aed">
+  <text class="lit8" x="224.0" y="246.8" style="animation-delay:0.00s">Docker</text>
+  <text class="lit8" x="304.5" y="246.8" style="animation-delay:0.62s">Oracle Cloud</text>
+  <text class="lit8" x="416.5" y="246.8" style="animation-delay:1.24s">Cloudflare Tunnel</text>
+  <text class="lit8" x="517.0" y="246.8" style="animation-delay:1.86s">Redpanda</text>
+  <text class="lit8" x="609.0" y="246.8" style="animation-delay:2.48s">GitHub Actions</text>
+  <text class="lit8" x="706.5" y="246.8" style="animation-delay:3.10s">Prometheus</text>
+  <text class="lit8" x="784.0" y="246.8" style="animation-delay:3.72s">Grafana</text>
+  <text class="lit8" x="244.0" y="275.8" style="animation-delay:4.34s">OpenTelemetry</text>
+</g>
+
+<rect class="puls" x="28" y="303.0" width="2.5" height="22" rx="1.25" fill="#4f46e5" style="animation-delay:2.0s"/>
+<text class="mono" x="41" y="311.0" font-size="10" letter-spacing="1.4" fill="#3a3f52">EMBEDDED</text>
+<text class="mono" x="41" y="325.0" font-size="8.5" fill="#8489a0">firmware and sensors</text>
+<g class="mono" font-size="9.5" text-anchor="middle">
+  <rect x="196" y="303" width="68" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="230.0" y="317.8" fill="#5f6478">ESP32-S3</text>
+  <rect x="271" y="303" width="68" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="305.0" y="317.8" fill="#5f6478">FreeRTOS</text>
+  <rect x="346" y="303" width="39" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="365.5" y="317.8" fill="#5f6478">BLE</text>
+  <rect x="392" y="303" width="45" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="414.5" y="317.8" fill="#5f6478">MQTT</text>
+</g>
+<g fill="none" stroke="#4f46e5" stroke-width="1.2">
+  <rect class="lit4" x="196" y="303" width="68" height="22" rx="6" style="animation-delay:0.00s"/>
+  <rect class="lit4" x="271" y="303" width="68" height="22" rx="6" style="animation-delay:0.62s"/>
+  <rect class="lit4" x="346" y="303" width="39" height="22" rx="6" style="animation-delay:1.24s"/>
+  <rect class="lit4" x="392" y="303" width="45" height="22" rx="6" style="animation-delay:1.86s"/>
+</g>
+<g class="mono" font-size="9.5" text-anchor="middle" fill="#7c3aed">
+  <text class="lit4" x="230.0" y="317.8" style="animation-delay:0.00s">ESP32-S3</text>
+  <text class="lit4" x="305.0" y="317.8" style="animation-delay:0.62s">FreeRTOS</text>
+  <text class="lit4" x="365.5" y="317.8" style="animation-delay:1.24s">BLE</text>
+  <text class="lit4" x="414.5" y="317.8" style="animation-delay:1.86s">MQTT</text>
+</g>
+
+<rect class="puls" x="28" y="355.0" width="2.5" height="22" rx="1.25" fill="#4f46e5" style="animation-delay:2.5s"/>
+<text class="mono" x="41" y="363.0" font-size="10" letter-spacing="1.4" fill="#3a3f52">LANGUAGES</text>
+<text class="mono" x="41" y="377.0" font-size="8.5" fill="#8489a0">beneath the frameworks</text>
+<g class="mono" font-size="9.5" text-anchor="middle">
+  <rect x="196" y="355" width="56" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="224.0" y="369.8" fill="#5f6478">Python</text>
+  <rect x="259" y="355" width="79" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="298.5" y="369.8" fill="#5f6478">JavaScript</text>
+  <rect x="345" y="355" width="45" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="367.5" y="369.8" fill="#5f6478">Java</text>
+  <rect x="397" y="355" width="28" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="411.0" y="369.8" fill="#5f6478">C</text>
+  <rect x="432" y="355" width="39" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="451.5" y="369.8" fill="#5f6478">C++</text>
+  <rect x="478" y="355" width="45" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="500.5" y="369.8" fill="#5f6478">Dart</text>
+  <rect x="530" y="355" width="56" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="558.0" y="369.8" fill="#5f6478">Kotlin</text>
+  <rect x="593" y="355" width="91" height="22" rx="6" fill="url(#chip_st)" stroke="#d5d9e6"/><text x="638.5" y="369.8" fill="#5f6478">x86 Assembly</text>
+</g>
+<g fill="none" stroke="#4f46e5" stroke-width="1.2">
+  <rect class="lit8" x="196" y="355" width="56" height="22" rx="6" style="animation-delay:0.00s"/>
+  <rect class="lit8" x="259" y="355" width="79" height="22" rx="6" style="animation-delay:0.62s"/>
+  <rect class="lit8" x="345" y="355" width="45" height="22" rx="6" style="animation-delay:1.24s"/>
+  <rect class="lit8" x="397" y="355" width="28" height="22" rx="6" style="animation-delay:1.86s"/>
+  <rect class="lit8" x="432" y="355" width="39" height="22" rx="6" style="animation-delay:2.48s"/>
+  <rect class="lit8" x="478" y="355" width="45" height="22" rx="6" style="animation-delay:3.10s"/>
+  <rect class="lit8" x="530" y="355" width="56" height="22" rx="6" style="animation-delay:3.72s"/>
+  <rect class="lit8" x="593" y="355" width="91" height="22" rx="6" style="animation-delay:4.34s"/>
+</g>
+<g class="mono" font-size="9.5" text-anchor="middle" fill="#7c3aed">
+  <text class="lit8" x="224.0" y="369.8" style="animation-delay:0.00s">Python</text>
+  <text class="lit8" x="298.5" y="369.8" style="animation-delay:0.62s">JavaScript</text>
+  <text class="lit8" x="367.5" y="369.8" style="animation-delay:1.24s">Java</text>
+  <text class="lit8" x="411.0" y="369.8" style="animation-delay:1.86s">C</text>
+  <text class="lit8" x="451.5" y="369.8" style="animation-delay:2.48s">C++</text>
+  <text class="lit8" x="500.5" y="369.8" style="animation-delay:3.10s">Dart</text>
+  <text class="lit8" x="558.0" y="369.8" style="animation-delay:3.72s">Kotlin</text>
+  <text class="lit8" x="638.5" y="369.8" style="animation-delay:4.34s">x86 Assembly</text>
+</g>
+</svg>

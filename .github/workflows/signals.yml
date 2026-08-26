@@ -1,0 +1,85 @@
+name: signals
+
+# Rebuilds the live panels from the GitHub API and commits the result. The SVGs
+# are served from this repo, so the profile never waits on a third-party widget
+# host and can never be rate limited by one.
+
+on:
+  schedule:
+    - cron: '37 4 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/signals.yml'
+      # The build validates that every asset is referenced by the README and every
+      # README reference exists. A README-only push can break that pairing, so it
+      # has to re-run the check too.
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Queue rather than cancel. A cancelled run leaves the panels stale, and these
+# runs are cheap enough that waiting is better than skipping.
+concurrency:
+  group: signals
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history, so a rebase onto a concurrent push can actually resolve.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Rebuild live panels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build.mjs --live
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          # Commit as the repository owner rather than as the bot. The panels are
+          # his data and this is his profile, so the daily refresh should not add a
+          # second name to the contributor list for what is really just a rebuild.
+          git config user.name  'Ahmedurehman'
+          git config user.email 'd4demha@gmail.com'
+
+          git add -A assets
+          if git diff --quiet --cached; then
+            echo 'panels unchanged, nothing to commit'
+            exit 0
+          fi
+          git commit -m 'signals: refresh live panels [skip ci]'
+
+          # A human push can land between our checkout and our push. Rebase onto
+          # whatever is there and retry rather than failing the run.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected, rebasing onto origin/main (attempt $attempt)"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              # Mid-rebase, --theirs is the commit being replayed, so this keeps the
+              # panels this run just built from the live API rather than the older
+              # ones already on main. Freshest data wins, which is the whole point.
+              git checkout --theirs assets 2>/dev/null || true
+              git add -A assets
+              GIT_EDITOR=true git rebase --continue || git rebase --abort
+            fi
+            sleep $((attempt * 3))
+          done
+
+          echo '::warning::could not push refreshed panels after 5 attempts'
+          exit 0
